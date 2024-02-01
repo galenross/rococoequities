@@ -11,13 +11,6 @@
         <h1>Compound Interest Calculator</h1>
 
         <form id="calculatorForm">
-            <label for="timePeriod">Select Time Period:</label>
-            <select id="timePeriod" name="timePeriod">
-                <option value="day">Day</option>
-                <option value="week">Week</option>
-                <option value="month">Month</option>
-            </select>
-
             <label for="interestRate">Enter Interest Rate:</label>
             <input type="number" id="interestRate" name="interestRate" placeholder="Enter interest rate" required>
 
@@ -26,7 +19,7 @@
 
             <button type="button" onclick="calculateCompoundInterest()">Run</button>
 
-            <p id="resultText">In 10 years, you will have <span id="resultAmount">BLANK</span> dollars</p>
+            <p id="resultText">In 10 years based on today's rate, you will have <span id="resultAmount">BLANK</span> dollars</p>
         </form>
     </div>
 
