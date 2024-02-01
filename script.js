@@ -13,4 +13,6 @@ function calculateCompoundInterest() {
     resultAmountElement.textContent = theAnswer.toFixed(2);
     }
 
+outPut()
+
 }
